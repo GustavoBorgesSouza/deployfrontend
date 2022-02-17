@@ -53,4 +53,4 @@ jobs:
           app-name: 'FrontDevopsOsasco'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_69F98458A6D74509A5A38FA6C3A7F820 }}
-          package: .
+          package: "build"
