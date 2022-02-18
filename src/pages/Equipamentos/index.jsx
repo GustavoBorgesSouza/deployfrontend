@@ -143,7 +143,7 @@ export const Equipamentos = () => {
 
             {produtos.map(item => 
               <div className="card" key={item.id}>
-                <img src={"http://localhost:5000/StaticFiles/Images/"+item.imagem} alt="" />
+                <img src={"http://apiosasco.azurewebsites.net/StaticFiles/Images/"+item.imagem} alt="" />
                 <div>
                   <h4>{item.nomePatrimonio}</h4>
                   <span>Patrimônio: {item.descricao}</span>
